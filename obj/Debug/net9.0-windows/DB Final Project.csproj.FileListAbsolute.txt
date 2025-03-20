@@ -1,0 +1,17 @@
+C:\DB Final Project\bin\Debug\net9.0-windows\DB Final Project.exe
+C:\DB Final Project\bin\Debug\net9.0-windows\DB Final Project.deps.json
+C:\DB Final Project\bin\Debug\net9.0-windows\DB Final Project.runtimeconfig.json
+C:\DB Final Project\bin\Debug\net9.0-windows\DB Final Project.dll
+C:\DB Final Project\bin\Debug\net9.0-windows\DB Final Project.pdb
+C:\DB Final Project\obj\Debug\net9.0-windows\DB_Final_Project.Form1.resources
+C:\DB Final Project\obj\Debug\net9.0-windows\DB_Final_Project.Properties.Resources.resources
+C:\DB Final Project\obj\Debug\net9.0-windows\DB Final Project.csproj.GenerateResource.cache
+C:\DB Final Project\obj\Debug\net9.0-windows\DB Final Project.GeneratedMSBuildEditorConfig.editorconfig
+C:\DB Final Project\obj\Debug\net9.0-windows\DB Final Project.AssemblyInfoInputs.cache
+C:\DB Final Project\obj\Debug\net9.0-windows\DB Final Project.AssemblyInfo.cs
+C:\DB Final Project\obj\Debug\net9.0-windows\DB Final Project.csproj.CoreCompileInputs.cache
+C:\DB Final Project\obj\Debug\net9.0-windows\DB Final Project.dll
+C:\DB Final Project\obj\Debug\net9.0-windows\refint\DB Final Project.dll
+C:\DB Final Project\obj\Debug\net9.0-windows\DB Final Project.pdb
+C:\DB Final Project\obj\Debug\net9.0-windows\DB Final Project.genruntimeconfig.cache
+C:\DB Final Project\obj\Debug\net9.0-windows\ref\DB Final Project.dll
