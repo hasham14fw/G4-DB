@@ -27,17 +27,14 @@ namespace DB_Final_Project
 
         private void Form1_Load(object sender, EventArgs e)
         {
+            // Curve the edges of panel1
             panel1.Region = System.Drawing.Region.FromHrgn(CreateRoundRectRgn(0, 0, panel1.Width, panel1.Height, 20, 20));
-            panel2.Region = System.Drawing.Region.FromHrgn(CreateRoundRectRgn(0, 0, panel2.Width, panel2.Height, 20, 20));
-            panel3.Region = System.Drawing.Region.FromHrgn(CreateRoundRectRgn(0, 0, panel3.Width, panel3.Height, 20, 20));
-            panel5.Region = System.Drawing.Region.FromHrgn(CreateRoundRectRgn(0, 0, panel5.Width, panel5.Height, 20, 20));
-            panel4.Region = System.Drawing.Region.FromHrgn(CreateRoundRectRgn(0, 0, panel4.Width, panel3.Height, 20, 20));
-            panel6.Region = System.Drawing.Region.FromHrgn(CreateRoundRectRgn(0, 0, panel6.Width, panel3.Height, 20, 20));
 
-            //SetButtonRoundedRegion(button1, 20, 20);
-            //SetButtonRoundedRegion(button2, 20, 20);
-            //SetButtonRoundedRegion(button3, 20, 20);
-            //SetButtonRoundedRegion(button4, 20, 20);
+            // Curve the edges of panel2
+            panel2.Region = System.Drawing.Region.FromHrgn(CreateRoundRectRgn(0, 0, panel2.Width, panel2.Height, 20, 20));
+
+            // Curve the edges of panel3
+            panel3.Region = System.Drawing.Region.FromHrgn(CreateRoundRectRgn(0, 0, panel3.Width, panel3.Height, 20, 20));
 
             // Create a circular region for pictureBox2
             GraphicsPath path = new GraphicsPath();
@@ -106,6 +103,16 @@ namespace DB_Final_Project
         }
 
         private void Form1_Load_1(object sender, EventArgs e)
+        {
+
+        }
+
+        private void panel1_Paint(object sender, PaintEventArgs e)
+        {
+
+        }
+
+        private void button4_Click(object sender, EventArgs e)
         {
 
         }

@@ -28,179 +28,28 @@
         /// </summary>
         private void InitializeComponent()
         {
-            panel1 = new Panel();
-            label8 = new Label();
-            pictureBox6 = new PictureBox();
-            label5 = new Label();
-            label3 = new Label();
-            label2 = new Label();
-            label1 = new Label();
-            pictureBox5 = new PictureBox();
-            pictureBox4 = new PictureBox();
-            pictureBox3 = new PictureBox();
-            pictureBox1 = new PictureBox();
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Form1));
             pictureBox2 = new PictureBox();
             panel2 = new Panel();
-            panel8 = new Panel();
-            panel7 = new Panel();
-            label12 = new Label();
-            panel4 = new Panel();
-            label10 = new Label();
-            panel5 = new Panel();
-            label9 = new Label();
-            panel6 = new Panel();
-            label11 = new Label();
             panel3 = new Panel();
             label7 = new Label();
             label6 = new Label();
             label4 = new Label();
             pictureBox7 = new PictureBox();
-            panel1.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)pictureBox6).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)pictureBox5).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)pictureBox4).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)pictureBox3).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)pictureBox1).BeginInit();
+            pictureBox1 = new PictureBox();
+            label8 = new Label();
+            panel1 = new Panel();
+            button4 = new Button();
+            button3 = new Button();
+            button2 = new Button();
+            button1 = new Button();
             ((System.ComponentModel.ISupportInitialize)pictureBox2).BeginInit();
             panel2.SuspendLayout();
-            panel7.SuspendLayout();
-            panel4.SuspendLayout();
-            panel5.SuspendLayout();
-            panel6.SuspendLayout();
             panel3.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)pictureBox7).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)pictureBox1).BeginInit();
+            panel1.SuspendLayout();
             SuspendLayout();
-            // 
-            // panel1
-            // 
-            panel1.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left;
-            panel1.Controls.Add(label8);
-            panel1.Controls.Add(pictureBox6);
-            panel1.Controls.Add(label5);
-            panel1.Controls.Add(label3);
-            panel1.Controls.Add(label2);
-            panel1.Controls.Add(label1);
-            panel1.Controls.Add(pictureBox5);
-            panel1.Controls.Add(pictureBox4);
-            panel1.Controls.Add(pictureBox3);
-            panel1.Controls.Add(pictureBox1);
-            panel1.Location = new Point(0, 0);
-            panel1.Name = "panel1";
-            panel1.Size = new Size(129, 449);
-            panel1.TabIndex = 0;
-            // 
-            // label8
-            // 
-            label8.AutoSize = true;
-            label8.Font = new Font("Elephant", 11F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            label8.ForeColor = SystemColors.ButtonHighlight;
-            label8.Location = new Point(3, 82);
-            label8.Name = "label8";
-            label8.Size = new Size(117, 29);
-            label8.TabIndex = 8;
-            label8.Text = "Director";
-            label8.Click += label8_Click;
-            // 
-            // pictureBox6
-            // 
-            pictureBox6.BackgroundImage = Properties.Resources.Staff;
-            pictureBox6.BackgroundImageLayout = ImageLayout.Stretch;
-            pictureBox6.Location = new Point(1, 178);
-            pictureBox6.Name = "pictureBox6";
-            pictureBox6.Size = new Size(31, 29);
-            pictureBox6.TabIndex = 8;
-            pictureBox6.TabStop = false;
-            // 
-            // label5
-            // 
-            label5.Anchor = AnchorStyles.Bottom | AnchorStyles.Left;
-            label5.AutoSize = true;
-            label5.Font = new Font("Times New Roman", 9F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            label5.ForeColor = SystemColors.ButtonHighlight;
-            label5.Location = new Point(28, 418);
-            label5.Name = "label5";
-            label5.Size = new Size(66, 20);
-            label5.TabIndex = 8;
-            label5.Text = "Logout";
-            label5.Click += label5_Click;
-            // 
-            // label3
-            // 
-            label3.AutoSize = true;
-            label3.Font = new Font("Times New Roman", 9F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            label3.ForeColor = Color.White;
-            label3.Location = new Point(35, 187);
-            label3.Name = "label3";
-            label3.Size = new Size(46, 20);
-            label3.TabIndex = 7;
-            label3.Text = "Staff";
-            // 
-            // label2
-            // 
-            label2.AutoSize = true;
-            label2.Font = new Font("Times New Roman", 9F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            label2.ForeColor = SystemColors.ButtonHighlight;
-            label2.Location = new Point(35, 224);
-            label2.Name = "label2";
-            label2.Size = new Size(76, 20);
-            label2.TabIndex = 6;
-            label2.Text = "Students";
-            // 
-            // label1
-            // 
-            label1.AutoSize = true;
-            label1.Font = new Font("Times New Roman", 9F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            label1.ForeColor = SystemColors.ButtonHighlight;
-            label1.Location = new Point(35, 150);
-            label1.Name = "label1";
-            label1.Size = new Size(94, 20);
-            label1.TabIndex = 5;
-            label1.Text = "Dashboard";
-            // 
-            // pictureBox5
-            // 
-            pictureBox5.BackgroundImage = Properties.Resources.Home1_removebg_preview__1__removebg_preview;
-            pictureBox5.BackgroundImageLayout = ImageLayout.Stretch;
-            pictureBox5.ErrorImage = Properties.Resources.Logout;
-            pictureBox5.Location = new Point(3, 140);
-            pictureBox5.Name = "pictureBox5";
-            pictureBox5.Size = new Size(29, 30);
-            pictureBox5.TabIndex = 4;
-            pictureBox5.TabStop = false;
-            // 
-            // pictureBox4
-            // 
-            pictureBox4.BackgroundImage = Properties.Resources.student;
-            pictureBox4.BackgroundImageLayout = ImageLayout.Stretch;
-            pictureBox4.Location = new Point(3, 214);
-            pictureBox4.Name = "pictureBox4";
-            pictureBox4.Size = new Size(33, 33);
-            pictureBox4.TabIndex = 3;
-            pictureBox4.TabStop = false;
-            // 
-            // pictureBox3
-            // 
-            pictureBox3.Anchor = AnchorStyles.Bottom | AnchorStyles.Left;
-            pictureBox3.BackgroundImage = Properties.Resources.Logout;
-            pictureBox3.BackgroundImageLayout = ImageLayout.Stretch;
-            pictureBox3.ErrorImage = Properties.Resources.Logout;
-            pictureBox3.Location = new Point(0, 418);
-            pictureBox3.Name = "pictureBox3";
-            pictureBox3.Size = new Size(29, 21);
-            pictureBox3.TabIndex = 2;
-            pictureBox3.TabStop = false;
-            pictureBox3.Click += pictureBox3_Click;
-            // 
-            // pictureBox1
-            // 
-            pictureBox1.BackgroundImage = Properties.Resources.LOGO_removebg_preview;
-            pictureBox1.BackgroundImageLayout = ImageLayout.Stretch;
-            pictureBox1.Location = new Point(12, 3);
-            pictureBox1.Name = "pictureBox1";
-            pictureBox1.Size = new Size(95, 76);
-            pictureBox1.TabIndex = 0;
-            pictureBox1.TabStop = false;
-            pictureBox1.Click += pictureBox1_Click;
             // 
             // pictureBox2
             // 
@@ -216,122 +65,14 @@
             // 
             panel2.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Right;
             panel2.BackColor = Color.FromArgb(224, 224, 224);
-            panel2.Controls.Add(panel8);
-            panel2.Controls.Add(panel7);
-            panel2.Controls.Add(panel4);
-            panel2.Controls.Add(panel5);
-            panel2.Controls.Add(panel6);
             panel2.Controls.Add(panel3);
-            panel2.Location = new Point(135, 40);
+            panel2.Location = new Point(124, 40);
             panel2.Name = "panel2";
-            panel2.Size = new Size(658, 395);
+            panel2.Size = new Size(670, 395);
             panel2.TabIndex = 1;
-            // 
-            // panel8
-            // 
-            panel8.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left;
-            panel8.BackColor = Color.White;
-            panel8.Location = new Point(248, 195);
-            panel8.Name = "panel8";
-            panel8.Size = new Size(394, 186);
-            panel8.TabIndex = 5;
-            panel8.Paint += panel8_Paint;
-            // 
-            // panel7
-            // 
-            panel7.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left;
-            panel7.BackColor = Color.White;
-            panel7.Controls.Add(label12);
-            panel7.Location = new Point(456, 98);
-            panel7.Name = "panel7";
-            panel7.Size = new Size(186, 87);
-            panel7.TabIndex = 4;
-            panel7.Paint += panel7_Paint;
-            // 
-            // label12
-            // 
-            label12.AutoSize = true;
-            label12.BackColor = Color.White;
-            label12.Font = new Font("Times New Roman", 11F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            label12.ForeColor = Color.FromArgb(0, 0, 64);
-            label12.Location = new Point(3, 7);
-            label12.Name = "label12";
-            label12.Size = new Size(122, 25);
-            label12.TabIndex = 9;
-            label12.Text = "Active Staff";
-            // 
-            // panel4
-            // 
-            panel4.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left;
-            panel4.BackColor = Color.White;
-            panel4.Controls.Add(label10);
-            panel4.Location = new Point(248, 98);
-            panel4.Name = "panel4";
-            panel4.Size = new Size(202, 87);
-            panel4.TabIndex = 3;
-            panel4.Paint += panel4_Paint;
-            // 
-            // label10
-            // 
-            label10.AutoSize = true;
-            label10.BackColor = Color.White;
-            label10.Font = new Font("Times New Roman", 11F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            label10.ForeColor = Color.FromArgb(0, 0, 64);
-            label10.Location = new Point(3, 7);
-            label10.Name = "label10";
-            label10.Size = new Size(159, 25);
-            label10.TabIndex = 8;
-            label10.Text = "Active Students";
-            // 
-            // panel5
-            // 
-            panel5.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left;
-            panel5.BackColor = Color.White;
-            panel5.Controls.Add(label9);
-            panel5.Location = new Point(248, 11);
-            panel5.Name = "panel5";
-            panel5.Size = new Size(202, 77);
-            panel5.TabIndex = 3;
-            panel5.Paint += panel5_Paint;
-            // 
-            // label9
-            // 
-            label9.AutoSize = true;
-            label9.BackColor = Color.White;
-            label9.Font = new Font("Times New Roman", 11F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            label9.ForeColor = Color.FromArgb(0, 0, 64);
-            label9.Location = new Point(3, 3);
-            label9.Name = "label9";
-            label9.Size = new Size(147, 25);
-            label9.TabIndex = 7;
-            label9.Text = "Total Students";
-            // 
-            // panel6
-            // 
-            panel6.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left;
-            panel6.BackColor = Color.White;
-            panel6.Controls.Add(label11);
-            panel6.Location = new Point(456, 11);
-            panel6.Name = "panel6";
-            panel6.Size = new Size(186, 77);
-            panel6.TabIndex = 3;
-            panel6.Paint += panel6_Paint;
-            // 
-            // label11
-            // 
-            label11.AutoSize = true;
-            label11.BackColor = Color.White;
-            label11.Font = new Font("Times New Roman", 11F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            label11.ForeColor = Color.FromArgb(0, 0, 64);
-            label11.Location = new Point(3, 3);
-            label11.Name = "label11";
-            label11.Size = new Size(110, 25);
-            label11.TabIndex = 9;
-            label11.Text = "Total Staff";
             // 
             // panel3
             // 
-            panel3.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left;
             panel3.BackColor = Color.White;
             panel3.Controls.Add(label7);
             panel3.Controls.Add(label6);
@@ -372,11 +113,11 @@
             label4.AutoSize = true;
             label4.Font = new Font("Times New Roman", 11F, FontStyle.Bold, GraphicsUnit.Point, 0);
             label4.ForeColor = SystemColors.ButtonHighlight;
-            label4.Location = new Point(139, 9);
+            label4.Location = new Point(124, 10);
             label4.Name = "label4";
-            label4.Size = new Size(275, 25);
+            label4.Size = new Size(327, 25);
             label4.TabIndex = 7;
-            label4.Text = "Allama Iqbal Public School ";
+            label4.Text = "Allama Iqbal Public High School ";
             label4.Click += label4_Click;
             // 
             // pictureBox7
@@ -384,18 +125,139 @@
             pictureBox7.Anchor = AnchorStyles.Top | AnchorStyles.Right;
             pictureBox7.BackgroundImage = Properties.Resources.profile;
             pictureBox7.BackgroundImageLayout = ImageLayout.Stretch;
-            pictureBox7.Location = new Point(763, 9);
+            pictureBox7.Location = new Point(764, 9);
             pictureBox7.Name = "pictureBox7";
             pictureBox7.Size = new Size(27, 26);
             pictureBox7.TabIndex = 2;
             pictureBox7.TabStop = false;
+            // 
+            // pictureBox1
+            // 
+            pictureBox1.BackgroundImage = Properties.Resources.LOGO_removebg_preview;
+            pictureBox1.BackgroundImageLayout = ImageLayout.Stretch;
+            pictureBox1.Location = new Point(12, 9);
+            pictureBox1.Name = "pictureBox1";
+            pictureBox1.Size = new Size(95, 76);
+            pictureBox1.TabIndex = 0;
+            pictureBox1.TabStop = false;
+            pictureBox1.Click += pictureBox1_Click;
+            // 
+            // label8
+            // 
+            label8.AutoSize = true;
+            label8.Font = new Font("Elephant", 11F, FontStyle.Bold, GraphicsUnit.Point, 0);
+            label8.ForeColor = SystemColors.ButtonHighlight;
+            label8.Location = new Point(3, 88);
+            label8.Name = "label8";
+            label8.Size = new Size(117, 29);
+            label8.TabIndex = 8;
+            label8.Text = "Director";
+            label8.Click += label8_Click;
+            // 
+            // panel1
+            // 
+            panel1.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left;
+            panel1.Controls.Add(button4);
+            panel1.Controls.Add(button3);
+            panel1.Controls.Add(button2);
+            panel1.Controls.Add(button1);
+            panel1.Controls.Add(label8);
+            panel1.Controls.Add(pictureBox1);
+            panel1.Font = new Font("Segoe UI Semibold", 8F, FontStyle.Bold, GraphicsUnit.Point, 0);
+            panel1.Location = new Point(0, 0);
+            panel1.Margin = new Padding(0);
+            panel1.Name = "panel1";
+            panel1.Size = new Size(121, 449);
+            panel1.TabIndex = 0;
+            panel1.Paint += panel1_Paint;
+            // 
+            // button4
+            // 
+            button4.AutoSizeMode = AutoSizeMode.GrowAndShrink;
+            button4.BackColor = Color.FromArgb(0, 0, 64);
+            button4.FlatStyle = FlatStyle.Popup;
+            button4.Font = new Font("Times New Roman", 9F, FontStyle.Bold, GraphicsUnit.Point, 0);
+            button4.ForeColor = SystemColors.ButtonHighlight;
+            button4.Image = (Image)resources.GetObject("button4.Image");
+            button4.ImageAlign = ContentAlignment.MiddleLeft;
+            button4.Location = new Point(0, 200);
+            button4.Name = "button4";
+            button4.RightToLeft = RightToLeft.No;
+            button4.Size = new Size(117, 26);
+            button4.TabIndex = 11;
+            button4.Text = "      Student";
+            button4.TextAlign = ContentAlignment.MiddleRight;
+            button4.UseMnemonic = false;
+            button4.UseVisualStyleBackColor = true;
+            button4.UseWaitCursor = true;
+            button4.Click += button4_Click;
+            // 
+            // button3
+            // 
+            button3.AutoSizeMode = AutoSizeMode.GrowAndShrink;
+            button3.BackColor = Color.FromArgb(0, 0, 64);
+            button3.FlatStyle = FlatStyle.Popup;
+            button3.Font = new Font("Times New Roman", 9F, FontStyle.Bold, GraphicsUnit.Point, 0);
+            button3.ForeColor = SystemColors.ButtonHighlight;
+            button3.Image = (Image)resources.GetObject("button3.Image");
+            button3.ImageAlign = ContentAlignment.MiddleLeft;
+            button3.Location = new Point(3, 168);
+            button3.Name = "button3";
+            button3.RightToLeft = RightToLeft.No;
+            button3.Size = new Size(101, 26);
+            button3.TabIndex = 10;
+            button3.Text = "Staff  ";
+            button3.TextAlign = ContentAlignment.MiddleRight;
+            button3.UseMnemonic = false;
+            button3.UseVisualStyleBackColor = true;
+            button3.UseWaitCursor = true;
+            // 
+            // button2
+            // 
+            button2.AutoSizeMode = AutoSizeMode.GrowAndShrink;
+            button2.BackColor = Color.FromArgb(0, 0, 64);
+            button2.FlatStyle = FlatStyle.Popup;
+            button2.Font = new Font("Times New Roman", 9F, FontStyle.Bold, GraphicsUnit.Point, 0);
+            button2.ForeColor = SystemColors.ButtonHighlight;
+            button2.Image = Properties.Resources.Logout__1_;
+            button2.ImageAlign = ContentAlignment.MiddleRight;
+            button2.Location = new Point(0, 408);
+            button2.Name = "button2";
+            button2.RightToLeft = RightToLeft.Yes;
+            button2.Size = new Size(104, 27);
+            button2.TabIndex = 9;
+            button2.Text = "Logout";
+            button2.TextAlign = ContentAlignment.MiddleLeft;
+            button2.UseMnemonic = false;
+            button2.UseVisualStyleBackColor = true;
+            button2.UseWaitCursor = true;
+            // 
+            // button1
+            // 
+            button1.AutoSizeMode = AutoSizeMode.GrowAndShrink;
+            button1.BackColor = Color.FromArgb(0, 0, 64);
+            button1.FlatStyle = FlatStyle.Popup;
+            button1.Font = new Font("Times New Roman", 9F, FontStyle.Bold);
+            button1.ForeColor = SystemColors.ButtonHighlight;
+            button1.Image = (Image)resources.GetObject("button1.Image");
+            button1.ImageAlign = ContentAlignment.MiddleRight;
+            button1.Location = new Point(3, 137);
+            button1.Name = "button1";
+            button1.RightToLeft = RightToLeft.Yes;
+            button1.Size = new Size(101, 25);
+            button1.TabIndex = 0;
+            button1.Text = "Home";
+            button1.TextAlign = ContentAlignment.TopLeft;
+            button1.UseMnemonic = false;
+            button1.UseVisualStyleBackColor = true;
+            button1.UseWaitCursor = true;
             // 
             // Form1
             // 
             AutoScaleDimensions = new SizeF(10F, 25F);
             AutoScaleMode = AutoScaleMode.Font;
             BackColor = Color.FromArgb(0, 0, 64);
-            ClientSize = new Size(800, 446);
+            ClientSize = new Size(801, 446);
             Controls.Add(label4);
             Controls.Add(panel2);
             Controls.Add(pictureBox7);
@@ -403,58 +265,32 @@
             Name = "Form1";
             Text = "Form1";
             Load += Form1_Load_1;
-            panel1.ResumeLayout(false);
-            panel1.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)pictureBox6).EndInit();
-            ((System.ComponentModel.ISupportInitialize)pictureBox5).EndInit();
-            ((System.ComponentModel.ISupportInitialize)pictureBox4).EndInit();
-            ((System.ComponentModel.ISupportInitialize)pictureBox3).EndInit();
-            ((System.ComponentModel.ISupportInitialize)pictureBox1).EndInit();
             ((System.ComponentModel.ISupportInitialize)pictureBox2).EndInit();
             panel2.ResumeLayout(false);
-            panel7.ResumeLayout(false);
-            panel7.PerformLayout();
-            panel4.ResumeLayout(false);
-            panel4.PerformLayout();
-            panel5.ResumeLayout(false);
-            panel5.PerformLayout();
-            panel6.ResumeLayout(false);
-            panel6.PerformLayout();
             panel3.ResumeLayout(false);
             panel3.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)pictureBox7).EndInit();
+            ((System.ComponentModel.ISupportInitialize)pictureBox1).EndInit();
+            panel1.ResumeLayout(false);
+            panel1.PerformLayout();
             ResumeLayout(false);
             PerformLayout();
         }
 
         #endregion
-
-        private Panel panel1;
         private Panel panel2;
-        private PictureBox pictureBox1;
-        private PictureBox pictureBox4;
-        private PictureBox pictureBox3;
         private PictureBox pictureBox2;
-        private PictureBox pictureBox5;
-        private Label label3;
-        private Label label2;
-        private Label label1;
         private Label label4;
-        private PictureBox pictureBox6;
-        private Label label5;
-        private Panel panel8;
-        private Panel panel7;
-        private Panel panel4;
-        private Panel panel5;
-        private Panel panel6;
         private Panel panel3;
         private Label label7;
         private Label label6;
         private PictureBox pictureBox7;
+        private PictureBox pictureBox1;
         private Label label8;
-        private Label label12;
-        private Label label10;
-        private Label label9;
-        private Label label11;
+        private Panel panel1;
+        private Button button1;
+        private Button button3;
+        private Button button2;
+        private Button button4;
     }
 }

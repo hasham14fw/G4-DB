@@ -15,3 +15,21 @@ C:\DB Final Project\obj\Debug\net9.0-windows\refint\DB Final Project.dll
 C:\DB Final Project\obj\Debug\net9.0-windows\DB Final Project.pdb
 C:\DB Final Project\obj\Debug\net9.0-windows\DB Final Project.genruntimeconfig.cache
 C:\DB Final Project\obj\Debug\net9.0-windows\ref\DB Final Project.dll
+C:\Users\user\Source\Repos\G4-DB\bin\Debug\net9.0-windows\DB Final Project.exe
+C:\Users\user\Source\Repos\G4-DB\bin\Debug\net9.0-windows\DB Final Project.deps.json
+C:\Users\user\Source\Repos\G4-DB\bin\Debug\net9.0-windows\DB Final Project.runtimeconfig.json
+C:\Users\user\Source\Repos\G4-DB\bin\Debug\net9.0-windows\DB Final Project.dll
+C:\Users\user\Source\Repos\G4-DB\bin\Debug\net9.0-windows\DB Final Project.pdb
+C:\Users\user\Source\Repos\G4-DB\obj\Debug\net9.0-windows\DB_Final_Project.Form1.resources
+C:\Users\user\Source\Repos\G4-DB\obj\Debug\net9.0-windows\DB_Final_Project.Properties.Resources.resources
+C:\Users\user\Source\Repos\G4-DB\obj\Debug\net9.0-windows\DB Final Project.csproj.GenerateResource.cache
+C:\Users\user\Source\Repos\G4-DB\obj\Debug\net9.0-windows\DB Final Project.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\user\Source\Repos\G4-DB\obj\Debug\net9.0-windows\DB Final Project.AssemblyInfoInputs.cache
+C:\Users\user\Source\Repos\G4-DB\obj\Debug\net9.0-windows\DB Final Project.AssemblyInfo.cs
+C:\Users\user\Source\Repos\G4-DB\obj\Debug\net9.0-windows\DB Final Project.csproj.CoreCompileInputs.cache
+C:\Users\user\Source\Repos\G4-DB\obj\Debug\net9.0-windows\DB Final Project.sourcelink.json
+C:\Users\user\Source\Repos\G4-DB\obj\Debug\net9.0-windows\DB Final Project.dll
+C:\Users\user\Source\Repos\G4-DB\obj\Debug\net9.0-windows\refint\DB Final Project.dll
+C:\Users\user\Source\Repos\G4-DB\obj\Debug\net9.0-windows\DB Final Project.pdb
+C:\Users\user\Source\Repos\G4-DB\obj\Debug\net9.0-windows\DB Final Project.genruntimeconfig.cache
+C:\Users\user\Source\Repos\G4-DB\obj\Debug\net9.0-windows\ref\DB Final Project.dll

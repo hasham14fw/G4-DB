@@ -14,11 +14,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\DB Final Project\\DB Final Project.csproj",
+      "projectUniqueName": "C:\\Users\\user\\Source\\Repos\\G4-DB\\DB Final Project.csproj",
       "projectName": "DB Final Project",
-      "projectPath": "C:\\DB Final Project\\DB Final Project.csproj",
+      "projectPath": "C:\\Users\\user\\Source\\Repos\\G4-DB\\DB Final Project.csproj",
       "packagesPath": "C:\\Users\\user\\.nuget\\packages\\",
-      "outputPath": "C:\\DB Final Project\\obj\\",
+      "outputPath": "C:\\Users\\user\\Source\\Repos\\G4-DB\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

@@ -63,6 +63,26 @@ namespace DB_Final_Project.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap Home1_removebg_preview__1__remov {
+            get {
+                object obj = ResourceManager.GetObject("Home1-removebg-preview__1_-remov", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap Home1_removebg_preview__1__remov__1_ {
+            get {
+                object obj = ResourceManager.GetObject("Home1-removebg-preview__1_-remov (1)", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap Home1_removebg_preview__1__removebg_preview {
             get {
                 object obj = ResourceManager.GetObject("Home1-removebg-preview__1_-removebg-preview", resourceCulture);
@@ -76,6 +96,16 @@ namespace DB_Final_Project.Properties {
         internal static System.Drawing.Bitmap image {
             get {
                 object obj = ResourceManager.GetObject("image", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap image__2_ {
+            get {
+                object obj = ResourceManager.GetObject("image (2)", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -103,6 +133,26 @@ namespace DB_Final_Project.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap Logout__1_ {
+            get {
+                object obj = ResourceManager.GetObject("Logout (1)", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap Name_Tag {
+            get {
+                object obj = ResourceManager.GetObject("Name Tag", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap profile {
             get {
                 object obj = ResourceManager.GetObject("profile", resourceCulture);
@@ -116,6 +166,26 @@ namespace DB_Final_Project.Properties {
         internal static System.Drawing.Bitmap Staff {
             get {
                 object obj = ResourceManager.GetObject("Staff", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap Staff__1_ {
+            get {
+                object obj = ResourceManager.GetObject("Staff (1)", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap Staff1 {
+            get {
+                object obj = ResourceManager.GetObject("Staff1", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
