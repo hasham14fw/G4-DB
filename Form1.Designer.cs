@@ -183,9 +183,9 @@
             button4.Location = new Point(0, 200);
             button4.Name = "button4";
             button4.RightToLeft = RightToLeft.No;
-            button4.Size = new Size(117, 26);
+            button4.Size = new Size(121, 26);
             button4.TabIndex = 11;
-            button4.Text = "      Student";
+            button4.Text = " Student ";
             button4.TextAlign = ContentAlignment.MiddleRight;
             button4.UseMnemonic = false;
             button4.UseVisualStyleBackColor = true;
@@ -204,9 +204,9 @@
             button3.Location = new Point(3, 168);
             button3.Name = "button3";
             button3.RightToLeft = RightToLeft.No;
-            button3.Size = new Size(101, 26);
+            button3.Size = new Size(115, 26);
             button3.TabIndex = 10;
-            button3.Text = "Staff  ";
+            button3.Text = "Staff     ";
             button3.TextAlign = ContentAlignment.MiddleRight;
             button3.UseMnemonic = false;
             button3.UseVisualStyleBackColor = true;
@@ -244,9 +244,9 @@
             button1.Location = new Point(3, 137);
             button1.Name = "button1";
             button1.RightToLeft = RightToLeft.Yes;
-            button1.Size = new Size(101, 25);
+            button1.Size = new Size(115, 25);
             button1.TabIndex = 0;
-            button1.Text = "Home";
+            button1.Text = "   Home     ";
             button1.TextAlign = ContentAlignment.TopLeft;
             button1.UseMnemonic = false;
             button1.UseVisualStyleBackColor = true;
