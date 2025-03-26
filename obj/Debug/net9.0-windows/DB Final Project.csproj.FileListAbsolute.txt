@@ -33,3 +33,4 @@ C:\Users\user\Source\Repos\G4-DB\obj\Debug\net9.0-windows\refint\DB Final Projec
 C:\Users\user\Source\Repos\G4-DB\obj\Debug\net9.0-windows\DB Final Project.pdb
 C:\Users\user\Source\Repos\G4-DB\obj\Debug\net9.0-windows\DB Final Project.genruntimeconfig.cache
 C:\Users\user\Source\Repos\G4-DB\obj\Debug\net9.0-windows\ref\DB Final Project.dll
+C:\Users\user\source\repos\G4-DB\obj\Debug\net9.0-windows\DB_Final_Project.Form2.resources
