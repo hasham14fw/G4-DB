@@ -55,7 +55,7 @@
             // 
             pictureBox2.BackgroundImage = Properties.Resources.profile;
             pictureBox2.BackgroundImageLayout = ImageLayout.Stretch;
-            pictureBox2.Location = new Point(44, 13);
+            pictureBox2.Location = new Point(39, 15);
             pictureBox2.Name = "pictureBox2";
             pictureBox2.Size = new Size(134, 96);
             pictureBox2.TabIndex = 1;
@@ -167,7 +167,7 @@
             panel1.Location = new Point(0, 0);
             panel1.Margin = new Padding(0);
             panel1.Name = "panel1";
-            panel1.Size = new Size(121, 449);
+            panel1.Size = new Size(121, 437);
             panel1.TabIndex = 0;
             panel1.Paint += panel1_Paint;
             // 
@@ -224,7 +224,7 @@
             button2.Location = new Point(0, 408);
             button2.Name = "button2";
             button2.RightToLeft = RightToLeft.Yes;
-            button2.Size = new Size(104, 27);
+            button2.Size = new Size(118, 27);
             button2.TabIndex = 9;
             button2.Text = "Logout";
             button2.TextAlign = ContentAlignment.MiddleLeft;
@@ -263,7 +263,7 @@
             Controls.Add(pictureBox7);
             Controls.Add(panel1);
             Name = "Form1";
-            Text = "Form1";
+            Text = "XD";
             Load += Form1_Load_1;
             ((System.ComponentModel.ISupportInitialize)pictureBox2).EndInit();
             panel2.ResumeLayout(false);
