@@ -34,3 +34,24 @@ C:\Users\user\Source\Repos\G4-DB\obj\Debug\net9.0-windows\DB Final Project.pdb
 C:\Users\user\Source\Repos\G4-DB\obj\Debug\net9.0-windows\DB Final Project.genruntimeconfig.cache
 C:\Users\user\Source\Repos\G4-DB\obj\Debug\net9.0-windows\ref\DB Final Project.dll
 C:\Users\user\source\repos\G4-DB\obj\Debug\net9.0-windows\DB_Final_Project.Form2.resources
+C:\Users\DELL\Source\Repos\G4-DB\bin\Debug\net9.0-windows\DB Final Project.exe
+C:\Users\DELL\Source\Repos\G4-DB\bin\Debug\net9.0-windows\DB Final Project.deps.json
+C:\Users\DELL\Source\Repos\G4-DB\bin\Debug\net9.0-windows\DB Final Project.runtimeconfig.json
+C:\Users\DELL\Source\Repos\G4-DB\bin\Debug\net9.0-windows\DB Final Project.dll
+C:\Users\DELL\Source\Repos\G4-DB\bin\Debug\net9.0-windows\DB Final Project.pdb
+C:\Users\DELL\Source\Repos\G4-DB\obj\Debug\net9.0-windows\DB_Final_Project.adminDashboard.resources
+C:\Users\DELL\Source\Repos\G4-DB\obj\Debug\net9.0-windows\DB_Final_Project.adminInfo.resources
+C:\Users\DELL\Source\Repos\G4-DB\obj\Debug\net9.0-windows\DB_Final_Project.Form1.resources
+C:\Users\DELL\Source\Repos\G4-DB\obj\Debug\net9.0-windows\DB_Final_Project.Form2.resources
+C:\Users\DELL\Source\Repos\G4-DB\obj\Debug\net9.0-windows\DB_Final_Project.Properties.Resources.resources
+C:\Users\DELL\Source\Repos\G4-DB\obj\Debug\net9.0-windows\DB Final Project.csproj.GenerateResource.cache
+C:\Users\DELL\Source\Repos\G4-DB\obj\Debug\net9.0-windows\DB Final Project.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\DELL\Source\Repos\G4-DB\obj\Debug\net9.0-windows\DB Final Project.AssemblyInfoInputs.cache
+C:\Users\DELL\Source\Repos\G4-DB\obj\Debug\net9.0-windows\DB Final Project.AssemblyInfo.cs
+C:\Users\DELL\Source\Repos\G4-DB\obj\Debug\net9.0-windows\DB Final Project.csproj.CoreCompileInputs.cache
+C:\Users\DELL\Source\Repos\G4-DB\obj\Debug\net9.0-windows\DB Final Project.sourcelink.json
+C:\Users\DELL\Source\Repos\G4-DB\obj\Debug\net9.0-windows\DB Final Project.dll
+C:\Users\DELL\Source\Repos\G4-DB\obj\Debug\net9.0-windows\refint\DB Final Project.dll
+C:\Users\DELL\Source\Repos\G4-DB\obj\Debug\net9.0-windows\DB Final Project.pdb
+C:\Users\DELL\Source\Repos\G4-DB\obj\Debug\net9.0-windows\DB Final Project.genruntimeconfig.cache
+C:\Users\DELL\Source\Repos\G4-DB\obj\Debug\net9.0-windows\ref\DB Final Project.dll
