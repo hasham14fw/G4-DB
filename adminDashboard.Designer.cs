@@ -31,29 +31,29 @@
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(adminDashboard));
             label4 = new Label();
             panel2 = new Panel();
+            dataGridView2 = new DataGridView();
+            dataGridView1 = new DataGridView();
             panel3 = new Panel();
             label7 = new Label();
             label6 = new Label();
             pictureBox2 = new PictureBox();
             pictureBox7 = new PictureBox();
             panel1 = new Panel();
+            button5 = new Button();
             button4 = new Button();
             button3 = new Button();
             button2 = new Button();
             button1 = new Button();
             label8 = new Label();
             pictureBox1 = new PictureBox();
-            dataGridView1 = new DataGridView();
-            dataGridView2 = new DataGridView();
-            button5 = new Button();
             panel2.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)dataGridView2).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)dataGridView1).BeginInit();
             panel3.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)pictureBox2).BeginInit();
             ((System.ComponentModel.ISupportInitialize)pictureBox7).BeginInit();
             panel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)pictureBox1).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)dataGridView1).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)dataGridView2).BeginInit();
             SuspendLayout();
             // 
             // label4
@@ -79,6 +79,24 @@
             panel2.Name = "panel2";
             panel2.Size = new Size(670, 395);
             panel2.TabIndex = 9;
+            // 
+            // dataGridView2
+            // 
+            dataGridView2.ColumnHeadersHeightSizeMode = DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            dataGridView2.Location = new Point(274, 196);
+            dataGridView2.Name = "dataGridView2";
+            dataGridView2.RowHeadersWidth = 62;
+            dataGridView2.Size = new Size(363, 185);
+            dataGridView2.TabIndex = 4;
+            // 
+            // dataGridView1
+            // 
+            dataGridView1.ColumnHeadersHeightSizeMode = DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            dataGridView1.Location = new Point(274, 11);
+            dataGridView1.Name = "dataGridView1";
+            dataGridView1.RowHeadersWidth = 62;
+            dataGridView1.Size = new Size(363, 168);
+            dataGridView1.TabIndex = 3;
             // 
             // panel3
             // 
@@ -153,6 +171,26 @@
             panel1.Size = new Size(121, 437);
             panel1.TabIndex = 8;
             // 
+            // button5
+            // 
+            button5.AutoSizeMode = AutoSizeMode.GrowAndShrink;
+            button5.BackColor = Color.FromArgb(0, 0, 64);
+            button5.FlatStyle = FlatStyle.Popup;
+            button5.Font = new Font("Times New Roman", 8F, FontStyle.Regular, GraphicsUnit.Point, 0);
+            button5.ForeColor = SystemColors.ButtonHighlight;
+            button5.Image = (Image)resources.GetObject("button5.Image");
+            button5.ImageAlign = ContentAlignment.MiddleRight;
+            button5.Location = new Point(0, 169);
+            button5.Name = "button5";
+            button5.RightToLeft = RightToLeft.Yes;
+            button5.Size = new Size(121, 32);
+            button5.TabIndex = 12;
+            button5.Text = "Personal    ";
+            button5.UseMnemonic = false;
+            button5.UseVisualStyleBackColor = true;
+            button5.UseWaitCursor = true;
+            button5.Click += button5_Click;
+            // 
             // button4
             // 
             button4.AutoSizeMode = AutoSizeMode.GrowAndShrink;
@@ -182,10 +220,10 @@
             button3.ForeColor = SystemColors.ButtonHighlight;
             button3.Image = (Image)resources.GetObject("button3.Image");
             button3.ImageAlign = ContentAlignment.MiddleLeft;
-            button3.Location = new Point(0, 200);
+            button3.Location = new Point(-11, 200);
             button3.Name = "button3";
             button3.RightToLeft = RightToLeft.No;
-            button3.Size = new Size(118, 30);
+            button3.Size = new Size(118, 37);
             button3.TabIndex = 10;
             button3.Text = "Salaries   ";
             button3.TextImageRelation = TextImageRelation.ImageBeforeText;
@@ -255,44 +293,6 @@
             pictureBox1.TabIndex = 0;
             pictureBox1.TabStop = false;
             // 
-            // dataGridView1
-            // 
-            dataGridView1.ColumnHeadersHeightSizeMode = DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            dataGridView1.Location = new Point(274, 11);
-            dataGridView1.Name = "dataGridView1";
-            dataGridView1.RowHeadersWidth = 62;
-            dataGridView1.Size = new Size(363, 168);
-            dataGridView1.TabIndex = 3;
-            // 
-            // dataGridView2
-            // 
-            dataGridView2.ColumnHeadersHeightSizeMode = DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            dataGridView2.Location = new Point(274, 196);
-            dataGridView2.Name = "dataGridView2";
-            dataGridView2.RowHeadersWidth = 62;
-            dataGridView2.Size = new Size(363, 185);
-            dataGridView2.TabIndex = 4;
-            // 
-            // button5
-            // 
-            button5.AutoSizeMode = AutoSizeMode.GrowAndShrink;
-            button5.BackColor = Color.FromArgb(0, 0, 64);
-            button5.FlatStyle = FlatStyle.Popup;
-            button5.Font = new Font("Times New Roman", 8F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            button5.ForeColor = SystemColors.ButtonHighlight;
-            button5.Image = (Image)resources.GetObject("button5.Image");
-            button5.ImageAlign = ContentAlignment.MiddleRight;
-            button5.Location = new Point(0, 169);
-            button5.Name = "button5";
-            button5.RightToLeft = RightToLeft.Yes;
-            button5.Size = new Size(121, 25);
-            button5.TabIndex = 12;
-            button5.Text = "Personal    ";
-            button5.UseMnemonic = false;
-            button5.UseVisualStyleBackColor = true;
-            button5.UseWaitCursor = true;
-            button5.Click += button5_Click;
-            // 
             // adminDashboard
             // 
             AutoScaleDimensions = new SizeF(10F, 25F);
@@ -306,6 +306,8 @@
             Name = "adminDashboard";
             Text = "adminDashboard";
             panel2.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)dataGridView2).EndInit();
+            ((System.ComponentModel.ISupportInitialize)dataGridView1).EndInit();
             panel3.ResumeLayout(false);
             panel3.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)pictureBox2).EndInit();
@@ -313,8 +315,6 @@
             panel1.ResumeLayout(false);
             panel1.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)pictureBox1).EndInit();
-            ((System.ComponentModel.ISupportInitialize)dataGridView1).EndInit();
-            ((System.ComponentModel.ISupportInitialize)dataGridView2).EndInit();
             ResumeLayout(false);
             PerformLayout();
         }

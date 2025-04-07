@@ -1,6 +1,6 @@
 ﻿namespace DB_Final_Project
 {
-    partial class adminInfo
+    partial class adminSalaries
     {
         /// <summary>
         /// Required designer variable.
@@ -28,29 +28,50 @@
         /// </summary>
         private void InitializeComponent()
         {
-            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(adminInfo));
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(adminSalaries));
+            button5 = new Button();
             label4 = new Label();
             panel2 = new Panel();
             panel3 = new Panel();
-            label7 = new Label();
-            label6 = new Label();
-            pictureBox2 = new PictureBox();
             pictureBox7 = new PictureBox();
             panel1 = new Panel();
-            button5 = new Button();
             button4 = new Button();
             button3 = new Button();
             button2 = new Button();
             button1 = new Button();
             label8 = new Label();
             pictureBox1 = new PictureBox();
+            label1 = new Label();
+            label2 = new Label();
+            panel4 = new Panel();
+            panel5 = new Panel();
             panel2.SuspendLayout();
             panel3.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)pictureBox2).BeginInit();
             ((System.ComponentModel.ISupportInitialize)pictureBox7).BeginInit();
             panel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)pictureBox1).BeginInit();
+            panel4.SuspendLayout();
+            panel5.SuspendLayout();
             SuspendLayout();
+            // 
+            // button5
+            // 
+            button5.AutoSizeMode = AutoSizeMode.GrowAndShrink;
+            button5.BackColor = Color.FromArgb(0, 0, 64);
+            button5.FlatStyle = FlatStyle.Popup;
+            button5.Font = new Font("Times New Roman", 8F, FontStyle.Regular, GraphicsUnit.Point, 0);
+            button5.ForeColor = SystemColors.ButtonHighlight;
+            button5.Image = (Image)resources.GetObject("button5.Image");
+            button5.ImageAlign = ContentAlignment.MiddleRight;
+            button5.Location = new Point(0, 169);
+            button5.Name = "button5";
+            button5.RightToLeft = RightToLeft.Yes;
+            button5.Size = new Size(121, 35);
+            button5.TabIndex = 12;
+            button5.Text = "Personal    ";
+            button5.UseMnemonic = false;
+            button5.UseVisualStyleBackColor = true;
+            button5.UseWaitCursor = true;
             // 
             // label4
             // 
@@ -61,7 +82,7 @@
             label4.Location = new Point(127, 17);
             label4.Name = "label4";
             label4.Size = new Size(327, 25);
-            label4.TabIndex = 15;
+            label4.TabIndex = 19;
             label4.Text = "Allama Iqbal Public High School ";
             // 
             // panel2
@@ -72,52 +93,17 @@
             panel2.Location = new Point(127, 47);
             panel2.Name = "panel2";
             panel2.Size = new Size(670, 395);
-            panel2.TabIndex = 13;
+            panel2.TabIndex = 17;
             // 
             // panel3
             // 
             panel3.BackColor = Color.White;
-            panel3.Controls.Add(label7);
-            panel3.Controls.Add(label6);
-            panel3.Controls.Add(pictureBox2);
+            panel3.Controls.Add(panel5);
+            panel3.Controls.Add(panel4);
             panel3.Location = new Point(85, 48);
             panel3.Name = "panel3";
             panel3.Size = new Size(519, 292);
             panel3.TabIndex = 2;
-            // 
-            // label7
-            // 
-            label7.AutoSize = true;
-            label7.BackColor = Color.White;
-            label7.Font = new Font("Times New Roman", 8F, FontStyle.Bold);
-            label7.ForeColor = Color.FromArgb(0, 0, 64);
-            label7.Location = new Point(241, 143);
-            label7.Name = "label7";
-            label7.Size = new Size(52, 19);
-            label7.TabIndex = 7;
-            label7.Text = "Admin";
-            // 
-            // label6
-            // 
-            label6.AutoSize = true;
-            label6.BackColor = Color.White;
-            label6.Font = new Font("Times New Roman", 11F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            label6.ForeColor = Color.FromArgb(0, 0, 64);
-            label6.Location = new Point(181, 118);
-            label6.Name = "label6";
-            label6.Size = new Size(160, 25);
-            label6.TabIndex = 6;
-            label6.Text = "Ch. Zafar Iqbal";
-            // 
-            // pictureBox2
-            // 
-            pictureBox2.BackgroundImage = Properties.Resources.profile;
-            pictureBox2.BackgroundImageLayout = ImageLayout.Stretch;
-            pictureBox2.Location = new Point(192, 16);
-            pictureBox2.Name = "pictureBox2";
-            pictureBox2.Size = new Size(134, 96);
-            pictureBox2.TabIndex = 1;
-            pictureBox2.TabStop = false;
             // 
             // pictureBox7
             // 
@@ -127,7 +113,7 @@
             pictureBox7.Location = new Point(767, 16);
             pictureBox7.Name = "pictureBox7";
             pictureBox7.Size = new Size(27, 26);
-            pictureBox7.TabIndex = 14;
+            pictureBox7.TabIndex = 18;
             pictureBox7.TabStop = false;
             // 
             // panel1
@@ -145,26 +131,7 @@
             panel1.Margin = new Padding(0);
             panel1.Name = "panel1";
             panel1.Size = new Size(121, 437);
-            panel1.TabIndex = 12;
-            // 
-            // button5
-            // 
-            button5.AutoSizeMode = AutoSizeMode.GrowAndShrink;
-            button5.BackColor = Color.FromArgb(0, 0, 64);
-            button5.FlatStyle = FlatStyle.Popup;
-            button5.Font = new Font("Times New Roman", 8F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            button5.ForeColor = SystemColors.ButtonHighlight;
-            button5.Image = (Image)resources.GetObject("button5.Image");
-            button5.ImageAlign = ContentAlignment.MiddleRight;
-            button5.Location = new Point(0, 169);
-            button5.Name = "button5";
-            button5.RightToLeft = RightToLeft.Yes;
-            button5.Size = new Size(121, 31);
-            button5.TabIndex = 12;
-            button5.Text = "Personal    ";
-            button5.UseMnemonic = false;
-            button5.UseVisualStyleBackColor = true;
-            button5.UseWaitCursor = true;
+            panel1.TabIndex = 16;
             // 
             // button4
             // 
@@ -185,7 +152,6 @@
             button4.UseMnemonic = false;
             button4.UseVisualStyleBackColor = true;
             button4.UseWaitCursor = true;
-            button4.Click += button4_Click;
             // 
             // button3
             // 
@@ -198,14 +164,13 @@
             button3.Location = new Point(-14, 200);
             button3.Name = "button3";
             button3.RightToLeft = RightToLeft.No;
-            button3.Size = new Size(121, 40);
+            button3.Size = new Size(121, 38);
             button3.TabIndex = 10;
             button3.Text = "Salaries   ";
             button3.TextImageRelation = TextImageRelation.ImageBeforeText;
             button3.UseMnemonic = false;
             button3.UseVisualStyleBackColor = true;
             button3.UseWaitCursor = true;
-            button3.Click += button3_Click;
             // 
             // button2
             // 
@@ -268,7 +233,46 @@
             pictureBox1.TabIndex = 0;
             pictureBox1.TabStop = false;
             // 
-            // adminInfo
+            // label1
+            // 
+            label1.AutoSize = true;
+            label1.Font = new Font("Times New Roman", 12F, FontStyle.Bold, GraphicsUnit.Point, 0);
+            label1.Location = new Point(15, 40);
+            label1.Name = "label1";
+            label1.Size = new Size(220, 26);
+            label1.TabIndex = 0;
+            label1.Text = "View Salary records";
+            label1.Click += label1_Click;
+            // 
+            // label2
+            // 
+            label2.AutoSize = true;
+            label2.Font = new Font("Times New Roman", 12F, FontStyle.Bold, GraphicsUnit.Point, 0);
+            label2.Location = new Point(3, 34);
+            label2.Name = "label2";
+            label2.Size = new Size(243, 26);
+            label2.TabIndex = 1;
+            label2.Text = "Update Salary records\r\n";
+            // 
+            // panel4
+            // 
+            panel4.BackColor = Color.FromArgb(224, 224, 224);
+            panel4.Controls.Add(label1);
+            panel4.Location = new Point(140, 38);
+            panel4.Name = "panel4";
+            panel4.Size = new Size(258, 97);
+            panel4.TabIndex = 2;
+            // 
+            // panel5
+            // 
+            panel5.BackColor = Color.FromArgb(224, 224, 224);
+            panel5.Controls.Add(label2);
+            panel5.Location = new Point(140, 148);
+            panel5.Name = "panel5";
+            panel5.Size = new Size(258, 105);
+            panel5.TabIndex = 3;
+            // 
+            // adminSalaries
             // 
             AutoScaleDimensions = new SizeF(10F, 25F);
             AutoScaleMode = AutoScaleMode.Font;
@@ -278,36 +282,39 @@
             Controls.Add(panel2);
             Controls.Add(pictureBox7);
             Controls.Add(panel1);
-            Name = "adminInfo";
-            Text = "adminInfo";
+            Name = "adminSalaries";
+            Text = "adminSalaries";
             panel2.ResumeLayout(false);
             panel3.ResumeLayout(false);
-            panel3.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)pictureBox2).EndInit();
             ((System.ComponentModel.ISupportInitialize)pictureBox7).EndInit();
             panel1.ResumeLayout(false);
             panel1.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)pictureBox1).EndInit();
+            panel4.ResumeLayout(false);
+            panel4.PerformLayout();
+            panel5.ResumeLayout(false);
+            panel5.PerformLayout();
             ResumeLayout(false);
             PerformLayout();
         }
 
         #endregion
 
+        private Button button5;
         private Label label4;
         private Panel panel2;
         private Panel panel3;
-        private Label label7;
-        private Label label6;
-        private PictureBox pictureBox2;
+        private Label label1;
         private PictureBox pictureBox7;
         private Panel panel1;
-        private Button button5;
         private Button button4;
         private Button button3;
         private Button button2;
         private Button button1;
         private Label label8;
         private PictureBox pictureBox1;
+        private Label label2;
+        private Panel panel4;
+        private Panel panel5;
     }
 }
