@@ -10,16 +10,16 @@ using System.Windows.Forms;
 
 namespace DB_Final_Project
 {
-    public partial class AdminViewSalary : Form
+    public partial class viewResult : Form
     {
-        public AdminViewSalary()
+        public viewResult()
         {
             InitializeComponent();
         }
 
-        private void textBox3_TextChanged(object sender, EventArgs e)
+        private void dataGridView1_CellContentClick(object sender, DataGridViewCellEventArgs e)
         {
-
+            dataGridView1.Rows.Add(new object[]{"Physics", "A+"});
         }
     }
 }

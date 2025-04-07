@@ -10,16 +10,11 @@ using System.Windows.Forms;
 
 namespace DB_Final_Project
 {
-    public partial class AdminViewSalary : Form
+    public partial class studentPortalmain: Form
     {
-        public AdminViewSalary()
+        public studentPortalmain()
         {
             InitializeComponent();
-        }
-
-        private void textBox3_TextChanged(object sender, EventArgs e)
-        {
-
         }
     }
 }

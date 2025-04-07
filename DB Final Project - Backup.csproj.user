@@ -2,7 +2,7 @@
 <Project ToolsVersion="Current" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <ItemGroup>
 <<<<<<< HEAD
-    <Compile Update="studentMain.cs">
+    <Compile Update="Form1.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Update="Personel_Information.cs">
