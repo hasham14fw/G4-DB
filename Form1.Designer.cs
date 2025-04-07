@@ -66,10 +66,11 @@
             panel2.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Right;
             panel2.BackColor = Color.FromArgb(224, 224, 224);
             panel2.Controls.Add(panel3);
-            panel2.Location = new Point(124, 40);
+            panel2.Location = new Point(168, 42);
             panel2.Name = "panel2";
-            panel2.Size = new Size(670, 395);
+            panel2.Size = new Size(1747, 976);
             panel2.TabIndex = 1;
+            panel2.Paint += panel2_Paint;
             // 
             // panel3
             // 
@@ -77,9 +78,9 @@
             panel3.Controls.Add(label7);
             panel3.Controls.Add(label6);
             panel3.Controls.Add(pictureBox2);
-            panel3.Location = new Point(15, 11);
+            panel3.Location = new Point(19, 15);
             panel3.Name = "panel3";
-            panel3.Size = new Size(219, 370);
+            panel3.Size = new Size(219, 952);
             panel3.TabIndex = 2;
             panel3.Paint += panel3_Paint;
             // 
@@ -113,7 +114,7 @@
             label4.AutoSize = true;
             label4.Font = new Font("Times New Roman", 11F, FontStyle.Bold, GraphicsUnit.Point, 0);
             label4.ForeColor = SystemColors.ButtonHighlight;
-            label4.Location = new Point(124, 10);
+            label4.Location = new Point(168, 9);
             label4.Name = "label4";
             label4.Size = new Size(327, 25);
             label4.TabIndex = 7;
@@ -125,7 +126,7 @@
             pictureBox7.Anchor = AnchorStyles.Top | AnchorStyles.Right;
             pictureBox7.BackgroundImage = Properties.Resources.profile;
             pictureBox7.BackgroundImageLayout = ImageLayout.Stretch;
-            pictureBox7.Location = new Point(764, 9);
+            pictureBox7.Location = new Point(1887, 9);
             pictureBox7.Name = "pictureBox7";
             pictureBox7.Size = new Size(27, 26);
             pictureBox7.TabIndex = 2;
@@ -135,9 +136,9 @@
             // 
             pictureBox1.BackgroundImage = Properties.Resources.LOGO_removebg_preview;
             pictureBox1.BackgroundImageLayout = ImageLayout.Stretch;
-            pictureBox1.Location = new Point(12, 9);
+            pictureBox1.Location = new Point(25, 9);
             pictureBox1.Name = "pictureBox1";
-            pictureBox1.Size = new Size(95, 76);
+            pictureBox1.Size = new Size(114, 90);
             pictureBox1.TabIndex = 0;
             pictureBox1.TabStop = false;
             pictureBox1.Click += pictureBox1_Click;
@@ -147,7 +148,7 @@
             label8.AutoSize = true;
             label8.Font = new Font("Elephant", 11F, FontStyle.Bold, GraphicsUnit.Point, 0);
             label8.ForeColor = SystemColors.ButtonHighlight;
-            label8.Location = new Point(3, 88);
+            label8.Location = new Point(22, 107);
             label8.Name = "label8";
             label8.Size = new Size(117, 29);
             label8.TabIndex = 8;
@@ -167,7 +168,7 @@
             panel1.Location = new Point(0, 0);
             panel1.Margin = new Padding(0);
             panel1.Name = "panel1";
-            panel1.Size = new Size(121, 437);
+            panel1.Size = new Size(149, 1018);
             panel1.TabIndex = 0;
             panel1.Paint += panel1_Paint;
             // 
@@ -180,10 +181,10 @@
             button4.ForeColor = SystemColors.ButtonHighlight;
             button4.Image = (Image)resources.GetObject("button4.Image");
             button4.ImageAlign = ContentAlignment.MiddleLeft;
-            button4.Location = new Point(0, 200);
+            button4.Location = new Point(-2, 223);
             button4.Name = "button4";
             button4.RightToLeft = RightToLeft.No;
-            button4.Size = new Size(121, 26);
+            button4.Size = new Size(141, 25);
             button4.TabIndex = 11;
             button4.Text = " Student ";
             button4.TextAlign = ContentAlignment.MiddleRight;
@@ -201,10 +202,10 @@
             button3.ForeColor = SystemColors.ButtonHighlight;
             button3.Image = (Image)resources.GetObject("button3.Image");
             button3.ImageAlign = ContentAlignment.MiddleLeft;
-            button3.Location = new Point(3, 168);
+            button3.Location = new Point(3, 192);
             button3.Name = "button3";
             button3.RightToLeft = RightToLeft.No;
-            button3.Size = new Size(115, 26);
+            button3.Size = new Size(136, 25);
             button3.TabIndex = 10;
             button3.Text = "Staff     ";
             button3.TextAlign = ContentAlignment.MiddleRight;
@@ -222,7 +223,7 @@
             button2.ForeColor = SystemColors.ButtonHighlight;
             button2.Image = Properties.Resources.Logout__1_;
             button2.ImageAlign = ContentAlignment.MiddleRight;
-            button2.Location = new Point(0, 408);
+            button2.Location = new Point(12, 988);
             button2.Name = "button2";
             button2.RightToLeft = RightToLeft.Yes;
             button2.Size = new Size(118, 27);
@@ -232,6 +233,7 @@
             button2.UseMnemonic = false;
             button2.UseVisualStyleBackColor = true;
             button2.UseWaitCursor = true;
+            button2.Click += button2_Click;
             // 
             // button1
             // 
@@ -242,10 +244,10 @@
             button1.ForeColor = SystemColors.ButtonHighlight;
             button1.Image = (Image)resources.GetObject("button1.Image");
             button1.ImageAlign = ContentAlignment.MiddleRight;
-            button1.Location = new Point(3, 137);
+            button1.Location = new Point(3, 161);
             button1.Name = "button1";
             button1.RightToLeft = RightToLeft.Yes;
-            button1.Size = new Size(115, 25);
+            button1.Size = new Size(136, 25);
             button1.TabIndex = 0;
             button1.Text = "   Home     ";
             button1.TextAlign = ContentAlignment.TopLeft;
@@ -258,12 +260,16 @@
             AutoScaleDimensions = new SizeF(10F, 25F);
             AutoScaleMode = AutoScaleMode.Font;
             BackColor = Color.FromArgb(0, 0, 64);
-            ClientSize = new Size(801, 446);
+            ClientSize = new Size(1924, 1027);
             Controls.Add(label4);
             Controls.Add(panel2);
             Controls.Add(pictureBox7);
             Controls.Add(panel1);
+            HelpButton = true;
+            ImeMode = ImeMode.On;
             Name = "Form1";
+            SizeGripStyle = SizeGripStyle.Show;
+            StartPosition = FormStartPosition.Manual;
             Text = "XD";
             Load += Form1_Load_1;
             ((System.ComponentModel.ISupportInitialize)pictureBox2).EndInit();
